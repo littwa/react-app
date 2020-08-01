@@ -1,0 +1,9 @@
+[
+  { "id": "id-1", "name": "BMW", "regionEU": true },
+  { "id": "id-2", "name": "Mercedes", "regionEU": true },
+  { "id": "id-3", "name": "Mazda", "regionEU": false },
+  { "id": "id-4", "name": "Toyota", "regionEU": false },
+  { "id": "id-5", "name": "Subaru", "regionEU": false },
+  { "id": "id-6", "name": "Opel", "regionEU": true },
+  { "id": "id-7", "name": "Ford", "regionEU": true }
+]

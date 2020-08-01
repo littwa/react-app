@@ -1,0 +1,1032 @@
+[
+  {
+    "name": "Belgium",
+    "topLevelDomain": [".be"],
+    "alpha2Code": "BE",
+    "alpha3Code": "BEL",
+    "callingCodes": ["32"],
+    "capital": "Brussels",
+    "altSpellings": ["BE", "België", "Belgie", "Belgien", "Belgique", "Kingdom of Belgium", "Koninkrijk België", "Royaume de Belgique", "Königreich Belgien"],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "population": 11319511,
+    "latlng": [50.83333333, 4],
+    "demonym": "Belgian",
+    "area": 30528,
+    "gini": 33,
+    "timezones": ["UTC+01:00"],
+    "borders": ["FRA", "DEU", "LUX", "NLD"],
+    "nativeName": "België",
+    "numericCode": "056",
+    "currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
+    "languages": [
+      {
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "name": "Dutch",
+        "nativeName": "Nederlands"
+      },
+      {
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "name": "French",
+        "nativeName": "français"
+      },
+      {
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "name": "German",
+        "nativeName": "Deutsch"
+      }
+    ],
+    "translations": {
+      "de": "Belgien",
+      "es": "Bélgica",
+      "fr": "Belgique",
+      "ja": "ベルギー",
+      "it": "Belgio",
+      "br": "Bélgica",
+      "pt": "Bélgica",
+      "nl": "België",
+      "hr": "Belgija",
+      "fa": "بلژیک"
+    },
+    "flag": "https://restcountries.eu/data/bel.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "BEL"
+  },
+
+  {
+    "name": "Bolivia (Plurinational State of)",
+    "topLevelDomain": [".bo"],
+    "alpha2Code": "BO",
+    "alpha3Code": "BOL",
+    "callingCodes": ["591"],
+    "capital": "Sucre",
+    "altSpellings": [
+      "BO",
+      "Buliwya",
+      "Wuliwya",
+      "Plurinational State of Bolivia",
+      "Estado Plurinacional de Bolivia",
+      "Buliwya Mamallaqta",
+      "Wuliwya Suyu",
+      "Tetã Volívia"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "population": 10985059,
+    "latlng": [-17, -65],
+    "demonym": "Bolivian",
+    "area": 1098581,
+    "gini": 56.3,
+    "timezones": ["UTC-04:00"],
+    "borders": ["ARG", "BRA", "CHL", "PRY", "PER"],
+    "nativeName": "Bolivia",
+    "numericCode": "068",
+    "currencies": [{ "code": "BOB", "name": "Bolivian boliviano", "symbol": "Bs." }],
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      },
+      {
+        "iso639_1": "ay",
+        "iso639_2": "aym",
+        "name": "Aymara",
+        "nativeName": "aymar aru"
+      },
+      {
+        "iso639_1": "qu",
+        "iso639_2": "que",
+        "name": "Quechua",
+        "nativeName": "Runa Simi"
+      }
+    ],
+    "translations": {
+      "de": "Bolivien",
+      "es": "Bolivia",
+      "fr": "Bolivie",
+      "ja": "ボリビア多民族国",
+      "it": "Bolivia",
+      "br": "Bolívia",
+      "pt": "Bolívia",
+      "nl": "Bolivia",
+      "hr": "Bolivija",
+      "fa": "بولیوی"
+    },
+    "flag": "https://restcountries.eu/data/bol.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "USAN",
+        "name": "Union of South American Nations",
+        "otherAcronyms": ["UNASUR", "UNASUL", "UZAN"],
+        "otherNames": ["Unión de Naciones Suramericanas", "União de Nações Sul-Americanas", "Unie van Zuid-Amerikaanse Naties", "South American Union"]
+      }
+    ],
+    "cioc": "BOL"
+  },
+
+  {
+    "name": "Cuba",
+    "topLevelDomain": [".cu"],
+    "alpha2Code": "CU",
+    "alpha3Code": "CUB",
+    "callingCodes": ["53"],
+    "capital": "Havana",
+    "altSpellings": ["CU", "Republic of Cuba", "República de Cuba"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "population": 11239004,
+    "latlng": [21.5, -80],
+    "demonym": "Cuban",
+    "area": 109884,
+    "gini": null,
+    "timezones": ["UTC-05:00"],
+    "borders": [],
+    "nativeName": "Cuba",
+    "numericCode": "192",
+    "currencies": [
+      { "code": "CUC", "name": "Cuban convertible peso", "symbol": "$" },
+      { "code": "CUP", "name": "Cuban peso", "symbol": "$" }
+    ],
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ],
+    "translations": {
+      "de": "Kuba",
+      "es": "Cuba",
+      "fr": "Cuba",
+      "ja": "キューバ",
+      "it": "Cuba",
+      "br": "Cuba",
+      "pt": "Cuba",
+      "nl": "Cuba",
+      "hr": "Kuba",
+      "fa": "کوبا"
+    },
+    "flag": "https://restcountries.eu/data/cub.svg",
+    "regionalBlocs": [],
+    "cioc": "CUB"
+  },
+
+  {
+    "name": "Egypt",
+    "topLevelDomain": [".eg"],
+    "alpha2Code": "EG",
+    "alpha3Code": "EGY",
+    "callingCodes": ["20"],
+    "capital": "Cairo",
+    "altSpellings": ["EG", "Arab Republic of Egypt"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "population": 91290000,
+    "latlng": [27, 30],
+    "demonym": "Egyptian",
+    "area": 1002450,
+    "gini": 30.8,
+    "timezones": ["UTC+02:00"],
+    "borders": ["ISR", "LBY", "SDN"],
+    "nativeName": "مصر‎",
+    "numericCode": "818",
+    "currencies": [{ "code": "EGP", "name": "Egyptian pound", "symbol": "£" }],
+    "languages": [
+      {
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية"
+      }
+    ],
+    "translations": {
+      "de": "Ägypten",
+      "es": "Egipto",
+      "fr": "Égypte",
+      "ja": "エジプト",
+      "it": "Egitto",
+      "br": "Egito",
+      "pt": "Egipto",
+      "nl": "Egypte",
+      "hr": "Egipat",
+      "fa": "مصر"
+    },
+    "flag": "https://restcountries.eu/data/egy.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "AU",
+        "name": "African Union",
+        "otherAcronyms": [],
+        "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+      },
+      {
+        "acronym": "AL",
+        "name": "Arab League",
+        "otherAcronyms": [],
+        "otherNames": ["جامعة الدول العربية", "Jāmiʻat ad-Duwal al-ʻArabīyah", "League of Arab States"]
+      }
+    ],
+    "cioc": "EGY"
+  },
+
+  {
+    "name": "Hong Kong",
+    "topLevelDomain": [".hk"],
+    "alpha2Code": "HK",
+    "alpha3Code": "HKG",
+    "callingCodes": ["852"],
+    "capital": "City of Victoria",
+    "altSpellings": ["HK", "香港"],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "population": 7324300,
+    "latlng": [22.25, 114.16666666],
+    "demonym": "Chinese",
+    "area": 1104,
+    "gini": 53.3,
+    "timezones": ["UTC+08:00"],
+    "borders": ["CHN"],
+    "nativeName": "香港",
+    "numericCode": "344",
+    "currencies": [{ "code": "HKD", "name": "Hong Kong dollar", "symbol": "$" }],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      },
+      {
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "name": "Chinese",
+        "nativeName": "中文 (Zhōngwén)"
+      }
+    ],
+    "translations": {
+      "de": "Hong Kong",
+      "es": "Hong Kong",
+      "fr": "Hong Kong",
+      "ja": "香港",
+      "it": "Hong Kong",
+      "br": "Hong Kong",
+      "pt": "Hong Kong",
+      "nl": "Hongkong",
+      "hr": "Hong Kong",
+      "fa": "هنگ‌کنگ"
+    },
+    "flag": "https://restcountries.eu/data/hkg.svg",
+    "regionalBlocs": [],
+    "cioc": "HKG"
+  },
+  {
+    "name": "Hungary",
+    "topLevelDomain": [".hu"],
+    "alpha2Code": "HU",
+    "alpha3Code": "HUN",
+    "callingCodes": ["36"],
+    "capital": "Budapest",
+    "altSpellings": ["HU"],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "population": 9823000,
+    "latlng": [47, 20],
+    "demonym": "Hungarian",
+    "area": 93028,
+    "gini": 31.2,
+    "timezones": ["UTC+01:00"],
+    "borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
+    "nativeName": "Magyarország",
+    "numericCode": "348",
+    "currencies": [{ "code": "HUF", "name": "Hungarian forint", "symbol": "Ft" }],
+    "languages": [
+      {
+        "iso639_1": "hu",
+        "iso639_2": "hun",
+        "name": "Hungarian",
+        "nativeName": "magyar"
+      }
+    ],
+    "translations": {
+      "de": "Ungarn",
+      "es": "Hungría",
+      "fr": "Hongrie",
+      "ja": "ハンガリー",
+      "it": "Ungheria",
+      "br": "Hungria",
+      "pt": "Hungria",
+      "nl": "Hongarije",
+      "hr": "Mađarska",
+      "fa": "مجارستان"
+    },
+    "flag": "https://restcountries.eu/data/hun.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "HUN"
+  },
+  {
+    "name": "Iceland",
+    "topLevelDomain": [".is"],
+    "alpha2Code": "IS",
+    "alpha3Code": "ISL",
+    "callingCodes": ["354"],
+    "capital": "Reykjavík",
+    "altSpellings": ["IS", "Island", "Republic of Iceland", "Lýðveldið Ísland"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "population": 334300,
+    "latlng": [65, -18],
+    "demonym": "Icelander",
+    "area": 103000,
+    "gini": null,
+    "timezones": ["UTC"],
+    "borders": [],
+    "nativeName": "Ísland",
+    "numericCode": "352",
+    "currencies": [{ "code": "ISK", "name": "Icelandic króna", "symbol": "kr" }],
+    "languages": [
+      {
+        "iso639_1": "is",
+        "iso639_2": "isl",
+        "name": "Icelandic",
+        "nativeName": "Íslenska"
+      }
+    ],
+    "translations": {
+      "de": "Island",
+      "es": "Islandia",
+      "fr": "Islande",
+      "ja": "アイスランド",
+      "it": "Islanda",
+      "br": "Islândia",
+      "pt": "Islândia",
+      "nl": "IJsland",
+      "hr": "Island",
+      "fa": "ایسلند"
+    },
+    "flag": "https://restcountries.eu/data/isl.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EFTA",
+        "name": "European Free Trade Association",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "ISL"
+  },
+  {
+    "name": "India",
+    "topLevelDomain": [".in"],
+    "alpha2Code": "IN",
+    "alpha3Code": "IND",
+    "callingCodes": ["91"],
+    "capital": "New Delhi",
+    "altSpellings": ["IN", "Bhārat", "Republic of India", "Bharat Ganrajya"],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "population": 1295210000,
+    "latlng": [20, 77],
+    "demonym": "Indian",
+    "area": 3287590,
+    "gini": 33.4,
+    "timezones": ["UTC+05:30"],
+    "borders": ["AFG", "BGD", "BTN", "MMR", "CHN", "NPL", "PAK", "LKA"],
+    "nativeName": "भारत",
+    "numericCode": "356",
+    "currencies": [{ "code": "INR", "name": "Indian rupee", "symbol": "₹" }],
+    "languages": [
+      {
+        "iso639_1": "hi",
+        "iso639_2": "hin",
+        "name": "Hindi",
+        "nativeName": "हिन्दी"
+      },
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ],
+    "translations": {
+      "de": "Indien",
+      "es": "India",
+      "fr": "Inde",
+      "ja": "インド",
+      "it": "India",
+      "br": "Índia",
+      "pt": "Índia",
+      "nl": "India",
+      "hr": "Indija",
+      "fa": "هند"
+    },
+    "flag": "https://restcountries.eu/data/ind.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "SAARC",
+        "name": "South Asian Association for Regional Cooperation",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "IND"
+  },
+
+  {
+    "name": "Libya",
+    "topLevelDomain": [".ly"],
+    "alpha2Code": "LY",
+    "alpha3Code": "LBY",
+    "callingCodes": ["218"],
+    "capital": "Tripoli",
+    "altSpellings": ["LY", "State of Libya", "Dawlat Libya"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "population": 6385000,
+    "latlng": [25, 17],
+    "demonym": "Libyan",
+    "area": 1759540,
+    "gini": null,
+    "timezones": ["UTC+01:00"],
+    "borders": ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"],
+    "nativeName": "‏ليبيا",
+    "numericCode": "434",
+    "currencies": [{ "code": "LYD", "name": "Libyan dinar", "symbol": "ل.د" }],
+    "languages": [
+      {
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية"
+      }
+    ],
+    "translations": {
+      "de": "Libyen",
+      "es": "Libia",
+      "fr": "Libye",
+      "ja": "リビア",
+      "it": "Libia",
+      "br": "Líbia",
+      "pt": "Líbia",
+      "nl": "Libië",
+      "hr": "Libija",
+      "fa": "لیبی"
+    },
+    "flag": "https://restcountries.eu/data/lby.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "AU",
+        "name": "African Union",
+        "otherAcronyms": [],
+        "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+      },
+      {
+        "acronym": "AL",
+        "name": "Arab League",
+        "otherAcronyms": [],
+        "otherNames": ["جامعة الدول العربية", "Jāmiʻat ad-Duwal al-ʻArabīyah", "League of Arab States"]
+      }
+    ],
+    "cioc": "LBA"
+  },
+
+  {
+    "name": "Mongolia",
+    "topLevelDomain": [".mn"],
+    "alpha2Code": "MN",
+    "alpha3Code": "MNG",
+    "callingCodes": ["976"],
+    "capital": "Ulan Bator",
+    "altSpellings": ["MN"],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "population": 3093100,
+    "latlng": [46, 105],
+    "demonym": "Mongolian",
+    "area": 1564110,
+    "gini": 36.5,
+    "timezones": ["UTC+07:00", "UTC+08:00"],
+    "borders": ["CHN", "RUS"],
+    "nativeName": "Монгол улс",
+    "numericCode": "496",
+    "currencies": [{ "code": "MNT", "name": "Mongolian tögrög", "symbol": "₮" }],
+    "languages": [
+      {
+        "iso639_1": "mn",
+        "iso639_2": "mon",
+        "name": "Mongolian",
+        "nativeName": "Монгол хэл"
+      }
+    ],
+    "translations": {
+      "de": "Mongolei",
+      "es": "Mongolia",
+      "fr": "Mongolie",
+      "ja": "モンゴル",
+      "it": "Mongolia",
+      "br": "Mongólia",
+      "pt": "Mongólia",
+      "nl": "Mongolië",
+      "hr": "Mongolija",
+      "fa": "مغولستان"
+    },
+    "flag": "https://restcountries.eu/data/mng.svg",
+    "regionalBlocs": [],
+    "cioc": "MGL"
+  },
+
+  {
+    "name": "Poland",
+    "topLevelDomain": [".pl"],
+    "alpha2Code": "PL",
+    "alpha3Code": "POL",
+    "callingCodes": ["48"],
+    "capital": "Warsaw",
+    "altSpellings": ["PL", "Republic of Poland", "Rzeczpospolita Polska"],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "population": 38437239,
+    "latlng": [52, 20],
+    "demonym": "Polish",
+    "area": 312679,
+    "gini": 34.1,
+    "timezones": ["UTC+01:00"],
+    "borders": ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
+    "nativeName": "Polska",
+    "numericCode": "616",
+    "currencies": [{ "code": "PLN", "name": "Polish złoty", "symbol": "zł" }],
+    "languages": [
+      {
+        "iso639_1": "pl",
+        "iso639_2": "pol",
+        "name": "Polish",
+        "nativeName": "język polski"
+      }
+    ],
+    "translations": {
+      "de": "Polen",
+      "es": "Polonia",
+      "fr": "Pologne",
+      "ja": "ポーランド",
+      "it": "Polonia",
+      "br": "Polônia",
+      "pt": "Polónia",
+      "nl": "Polen",
+      "hr": "Poljska",
+      "fa": "لهستان"
+    },
+    "flag": "https://restcountries.eu/data/pol.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "POL"
+  },
+  {
+    "name": "Portugal",
+    "topLevelDomain": [".pt"],
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "callingCodes": ["351"],
+    "capital": "Lisbon",
+    "altSpellings": ["PT", "Portuguesa", "Portuguese Republic", "República Portuguesa"],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 10374822,
+    "latlng": [39.5, -8],
+    "demonym": "Portuguese",
+    "area": 92090,
+    "gini": 38.5,
+    "timezones": ["UTC-01:00", "UTC"],
+    "borders": ["ESP"],
+    "nativeName": "Portugal",
+    "numericCode": "620",
+    "currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
+    "languages": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ],
+    "translations": {
+      "de": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "ja": "ポルトガル",
+      "it": "Portogallo",
+      "br": "Portugal",
+      "pt": "Portugal",
+      "nl": "Portugal",
+      "hr": "Portugal",
+      "fa": "پرتغال"
+    },
+    "flag": "https://restcountries.eu/data/prt.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "POR"
+  },
+
+  {
+    "name": "Sierra Leone",
+    "topLevelDomain": [".sl"],
+    "alpha2Code": "SL",
+    "alpha3Code": "SLE",
+    "callingCodes": ["232"],
+    "capital": "Freetown",
+    "altSpellings": ["SL", "Republic of Sierra Leone"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "population": 7075641,
+    "latlng": [8.5, -11.5],
+    "demonym": "Sierra Leonean",
+    "area": 71740,
+    "gini": 42.5,
+    "timezones": ["UTC"],
+    "borders": ["GIN", "LBR"],
+    "nativeName": "Sierra Leone",
+    "numericCode": "694",
+    "currencies": [{ "code": "SLL", "name": "Sierra Leonean leone", "symbol": "Le" }],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ],
+    "translations": {
+      "de": "Sierra Leone",
+      "es": "Sierra Leone",
+      "fr": "Sierra Leone",
+      "ja": "シエラレオネ",
+      "it": "Sierra Leone",
+      "br": "Serra Leoa",
+      "pt": "Serra Leoa",
+      "nl": "Sierra Leone",
+      "hr": "Sijera Leone",
+      "fa": "سیرالئون"
+    },
+    "flag": "https://restcountries.eu/data/sle.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "AU",
+        "name": "African Union",
+        "otherAcronyms": [],
+        "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+      }
+    ],
+    "cioc": "SLE"
+  },
+  {
+    "name": "Singapore",
+    "topLevelDomain": [".sg"],
+    "alpha2Code": "SG",
+    "alpha3Code": "SGP",
+    "callingCodes": ["65"],
+    "capital": "Singapore",
+    "altSpellings": ["SG", "Singapura", "Republik Singapura", "新加坡共和国"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "population": 5535000,
+    "latlng": [1.36666666, 103.8],
+    "demonym": "Singaporean",
+    "area": 710,
+    "gini": 48.1,
+    "timezones": ["UTC+08:00"],
+    "borders": [],
+    "nativeName": "Singapore",
+    "numericCode": "702",
+    "currencies": [
+      { "code": "BND", "name": "Brunei dollar", "symbol": "$" },
+      { "code": "SGD", "name": "Singapore dollar", "symbol": "$" }
+    ],
+    "languages": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      },
+      {
+        "iso639_1": "ms",
+        "iso639_2": "msa",
+        "name": "Malay",
+        "nativeName": "bahasa Melayu"
+      },
+      {
+        "iso639_1": "ta",
+        "iso639_2": "tam",
+        "name": "Tamil",
+        "nativeName": "தமிழ்"
+      },
+      {
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "name": "Chinese",
+        "nativeName": "中文 (Zhōngwén)"
+      }
+    ],
+    "translations": {
+      "de": "Singapur",
+      "es": "Singapur",
+      "fr": "Singapour",
+      "ja": "シンガポール",
+      "it": "Singapore",
+      "br": "Singapura",
+      "pt": "Singapura",
+      "nl": "Singapore",
+      "hr": "Singapur",
+      "fa": "سنگاپور"
+    },
+    "flag": "https://restcountries.eu/data/sgp.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "ASEAN",
+        "name": "Association of Southeast Asian Nations",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "SIN"
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
+    "topLevelDomain": [".sx"],
+    "alpha2Code": "SX",
+    "alpha3Code": "SXM",
+    "callingCodes": ["1721"],
+    "capital": "Philipsburg",
+    "altSpellings": ["SX"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "population": 38247,
+    "latlng": [18.033333, -63.05],
+    "demonym": "Dutch",
+    "area": 34,
+    "gini": null,
+    "timezones": ["UTC-04:00"],
+    "borders": ["MAF"],
+    "nativeName": "Sint Maarten",
+    "numericCode": "534",
+    "currencies": [{ "code": "ANG", "name": "Netherlands Antillean guilder", "symbol": "ƒ" }],
+    "languages": [
+      {
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "name": "Dutch",
+        "nativeName": "Nederlands"
+      },
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ],
+    "translations": {
+      "de": "Sint Maarten (niederl. Teil)",
+      "es": null,
+      "fr": "Saint Martin (partie néerlandaise)",
+      "ja": null,
+      "it": "Saint Martin (parte olandese)",
+      "br": "Sint Maarten",
+      "pt": "São Martinho",
+      "nl": "Sint Maarten",
+      "hr": null,
+      "fa": "سینت مارتن"
+    },
+    "flag": "https://restcountries.eu/data/sxm.svg",
+    "regionalBlocs": [],
+    "cioc": ""
+  },
+  {
+    "name": "Slovakia",
+    "topLevelDomain": [".sk"],
+    "alpha2Code": "SK",
+    "alpha3Code": "SVK",
+    "callingCodes": ["421"],
+    "capital": "Bratislava",
+    "altSpellings": ["SK", "Slovak Republic", "Slovenská republika"],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "population": 5426252,
+    "latlng": [48.66666666, 19.5],
+    "demonym": "Slovak",
+    "area": 49037,
+    "gini": 26,
+    "timezones": ["UTC+01:00"],
+    "borders": ["AUT", "CZE", "HUN", "POL", "UKR"],
+    "nativeName": "Slovensko",
+    "numericCode": "703",
+    "currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
+    "languages": [
+      {
+        "iso639_1": "sk",
+        "iso639_2": "slk",
+        "name": "Slovak",
+        "nativeName": "slovenčina"
+      }
+    ],
+    "translations": {
+      "de": "Slowakei",
+      "es": "República Eslovaca",
+      "fr": "Slovaquie",
+      "ja": "スロバキア",
+      "it": "Slovacchia",
+      "br": "Eslováquia",
+      "pt": "Eslováquia",
+      "nl": "Slowakije",
+      "hr": "Slovačka",
+      "fa": "اسلواکی"
+    },
+    "flag": "https://restcountries.eu/data/svk.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "SVK"
+  },
+
+  {
+    "name": "Turkmenistan",
+    "topLevelDomain": [".tm"],
+    "alpha2Code": "TM",
+    "alpha3Code": "TKM",
+    "callingCodes": ["993"],
+    "capital": "Ashgabat",
+    "altSpellings": ["TM"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "population": 4751120,
+    "latlng": [40, 60],
+    "demonym": "Turkmen",
+    "area": 488100,
+    "gini": 40.8,
+    "timezones": ["UTC+05:00"],
+    "borders": ["AFG", "IRN", "KAZ", "UZB"],
+    "nativeName": "Türkmenistan",
+    "numericCode": "795",
+    "currencies": [{ "code": "TMT", "name": "Turkmenistan manat", "symbol": "m" }],
+    "languages": [
+      {
+        "iso639_1": "tk",
+        "iso639_2": "tuk",
+        "name": "Turkmen",
+        "nativeName": "Türkmen"
+      },
+      {
+        "iso639_1": "ru",
+        "iso639_2": "rus",
+        "name": "Russian",
+        "nativeName": "Русский"
+      }
+    ],
+    "translations": {
+      "de": "Turkmenistan",
+      "es": "Turkmenistán",
+      "fr": "Turkménistan",
+      "ja": "トルクメニスタン",
+      "it": "Turkmenistan",
+      "br": "Turcomenistão",
+      "pt": "Turquemenistão",
+      "nl": "Turkmenistan",
+      "hr": "Turkmenistan",
+      "fa": "ترکمنستان"
+    },
+    "flag": "https://restcountries.eu/data/tkm.svg",
+    "regionalBlocs": [],
+    "cioc": "TKM"
+  },
+
+  {
+    "name": "Ukraine",
+    "topLevelDomain": [".ua"],
+    "alpha2Code": "UA",
+    "alpha3Code": "UKR",
+    "callingCodes": ["380"],
+    "capital": "Kiev",
+    "altSpellings": ["UA", "Ukrayina"],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "population": 42692393,
+    "latlng": [49, 32],
+    "demonym": "Ukrainian",
+    "area": 603700,
+    "gini": 26.4,
+    "timezones": ["UTC+02:00"],
+    "borders": ["BLR", "HUN", "MDA", "POL", "ROU", "RUS", "SVK"],
+    "nativeName": "Україна",
+    "numericCode": "804",
+    "currencies": [{ "code": "UAH", "name": "Ukrainian hryvnia", "symbol": "₴" }],
+    "languages": [
+      {
+        "iso639_1": "uk",
+        "iso639_2": "ukr",
+        "name": "Ukrainian",
+        "nativeName": "Українська"
+      }
+    ],
+    "translations": {
+      "de": "Ukraine",
+      "es": "Ucrania",
+      "fr": "Ukraine",
+      "ja": "ウクライナ",
+      "it": "Ucraina",
+      "br": "Ucrânia",
+      "pt": "Ucrânia",
+      "nl": "Oekraïne",
+      "hr": "Ukrajina",
+      "fa": "وکراین"
+    },
+    "flag": "https://restcountries.eu/data/ukr.svg",
+    "regionalBlocs": [],
+    "cioc": "UKR"
+  },
+  {
+    "name": "United Arab Emirates",
+    "topLevelDomain": [".ae"],
+    "alpha2Code": "AE",
+    "alpha3Code": "ARE",
+    "callingCodes": ["971"],
+    "capital": "Abu Dhabi",
+    "altSpellings": ["AE", "UAE"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "population": 9856000,
+    "latlng": [24, 54],
+    "demonym": "Emirati",
+    "area": 83600,
+    "gini": null,
+    "timezones": ["UTC+04"],
+    "borders": ["OMN", "SAU"],
+    "nativeName": "دولة الإمارات العربية المتحدة",
+    "numericCode": "784",
+    "currencies": [{ "code": "AED", "name": "United Arab Emirates dirham", "symbol": "د.إ" }],
+    "languages": [
+      {
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية"
+      }
+    ],
+    "translations": {
+      "de": "Vereinigte Arabische Emirate",
+      "es": "Emiratos Árabes Unidos",
+      "fr": "Émirats arabes unis",
+      "ja": "アラブ首長国連邦",
+      "it": "Emirati Arabi Uniti",
+      "br": "Emirados árabes Unidos",
+      "pt": "Emirados árabes Unidos",
+      "nl": "Verenigde Arabische Emiraten",
+      "hr": "Ujedinjeni Arapski Emirati",
+      "fa": "امارات متحده عربی"
+    },
+    "flag": "https://restcountries.eu/data/are.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "AL",
+        "name": "Arab League",
+        "otherAcronyms": [],
+        "otherNames": ["جامعة الدول العربية", "Jāmiʻat ad-Duwal al-ʻArabīyah", "League of Arab States"]
+      }
+    ],
+    "cioc": "UAE"
+  }
+]
