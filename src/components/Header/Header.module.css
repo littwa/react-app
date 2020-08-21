@@ -1,0 +1,12 @@
+.head {
+ flex-shrink: 0;
+ height: 10vh;
+ background-color: rgb(159, 255, 80);
+}
+.nav {
+ display: inline-flex;
+ list-style: none;
+}
+.title {
+ display: inline-block;
+}

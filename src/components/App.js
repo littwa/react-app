@@ -1,47 +1,26 @@
 import React from "react";
-import { v4 as uuidv4 } from "uuid";
-import TaskGenerate from "./TaskGenerate/TaskGenerate";
-import TaskContainer from "./TaskConteiner/TaskContainer";
+// import { v4 as uuidv4 } from "uuid";
+import Layout from "./Layout";
+
+import Home from "../view/Home/Home";
+import PageSearch from "../view/PageSearch/PageSearch";
+import About from "../view/About/About";
+import Detail from "../view/Detail/Detail";
+import { Route, Switch } from "react-router-dom";
 
 class App extends React.Component {
-  state = {
-    toDoList: [],
-  };
-
-  addTask = (name, description, priority) => {
-    const taska = {
-      name,
-      description,
-      id: uuidv4(),
-      completed: false,
-      priority,
-    };
-
-    this.setState((prevState) => {
-      return { toDoList: [...prevState.toDoList, taska] };
-    });
-  };
-
-  updateTask = (idTask) => {
-    this.setState((prevState) => ({ toDoList: prevState.toDoList.map((t) => (t.id === idTask ? { ...t, completed: !t.completed } : t)) }));
-  };
-
-  render() {
-    console.log(this.state);
-    return (
-      <>
-        <div>
-          <h2>Add Tasks</h2>
-          <TaskGenerate addTask={this.addTask} />
-        </div>
-
-        <div>
-          <h2>Added Task:</h2>
-          <TaskContainer arrayTasks={this.state.toDoList} updateTask={this.updateTask} />
-        </div>
-      </>
-    );
-  }
+ render() {
+  return (
+   <Layout>
+    <Switch>
+     <Route path={"/"} exact component={Home} />
+     <Route path={"/search"} exact component={PageSearch} />
+     <Route path={"/detail"} exact component={Detail} />
+     <Route path={"/about"} exact component={About} />
+    </Switch>
+   </Layout>
+  );
+ }
 }
 
 export default App;
