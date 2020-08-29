@@ -2,34 +2,46 @@ import React from "react";
 import style from "../Detail/Detail.module.css";
 import Fetch from "../../services/pixibayApi";
 
-class Detail extends React.Component {
-  // state = { picha: [] };
-  // // componentDidMount(){
-  // //   this.props.extraProps &&
-  // // }
-  // static getDerivedStateFromProps(nextProps, prevState) {
-  //   console.log(22, nextProps);
-  //   // let ggg = nextProps.extraProps ?
-  //   // Fetch.FetchImgById(434918).then((data) => console.log(333, data));
-  //   return { picha: nextProps.extraProps };
+class DetailB extends React.Component {
+  state = { picha: [] };
+  // componentDidMount(){
+  //   picha &&
   // }
+  // static getDerivedStateFromProps(nextProps, prevState) {
+  // console.log(22, nextProps);
+  // let ggg = nextProps.extraProps ?
+  // Fetch.FetchImgById(434918).then((data) => console.log(333, data));
+  // return { picha: nextProps.extraProps };
+  // }
+  componentDidMount() {
+    Fetch.FetchImgById(this.props.match.params.ImgId).then((data) => this.setState({ picha: data.hits[0] }));
+  }
 
   render() {
+    // console.log(this.state);
+    let { picha } = this.state;
+    let { extraProps } = this.props;
+
+    console.log("picha из стейт: ", picha);
+    console.log("extraProps:", extraProps);
+
+    let pichaX = extraProps.lengths > 0 ? extraProps : picha;
+    console.log("pichaX: ", pichaX);
     return (
-      this.props.extraProps && (
+      pichaX && (
         <div className={style.content}>
-          <img src={this.props.extraProps.webformatURL} alt="pic" />
-          <p>Downloads: {this.props.extraProps.downloads}</p>
-          <p>Likes: {this.props.extraProps.likes}</p>
-          <p>User: {this.props.extraProps.user}</p>
-          <p>Tags: {this.props.extraProps.tags}</p>
+          <img src={pichaX.webformatURL} alt="pic" />
+          <p>Downloads: {pichaX.downloads}</p>
+          <p>Likes: {pichaX.likes}</p>
+          <p>User: {pichaX.user}</p>
+          <p>Tags: {pichaX.tags}</p>
         </div>
       )
     );
   }
 }
 
-export default Detail;
+export default DetailB;
 
 // comments: 250
 // downloads: 274278
