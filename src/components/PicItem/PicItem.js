@@ -6,17 +6,13 @@ import { render } from "@testing-library/react";
 // import { Qw } from "../App";
 
 class PicItem extends React.Component {
-  componentDidMount() {
-    console.log(this.props);
-  }
-
   cbClick = (v) => {
     this.props.onCh(v);
   };
 
   render() {
     let { pictures, location } = this.props;
-    console.log(this.props);
+
     return pictures.map((p) => (
       <li key={p.id} onClick={() => this.cbClick(p)}>
         <NavLink to={{ pathname: `/detail/${p.id}`, state: { from: location, pic: p } }}>

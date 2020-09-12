@@ -16,7 +16,6 @@ class Home extends React.Component {
     });
   }
   render() {
-    console.log(2, this.props);
     return (
       <div className={style.content}>
         {this.state.pictures && (

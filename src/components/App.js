@@ -7,6 +7,7 @@ import PageSearch from "../view/PageSearch/PageSearch";
 import About from "../view/About/About";
 import Detail from "../view/Detail/Detail";
 import DetailB from "../view/DetailB/DetailB";
+import PhoneBook from "../view/PhoneBook/PhoneBook";
 import { Route, Switch } from "react-router-dom";
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
           <Route path={"/detail/ss"} exact component={About} />
           <Route path={"/detail/:ImgId"} exact render={(props) => <DetailB {...props} extraProps={this.state.pic} />} />
           <Route path={"/about"} exact component={About} />
+          <Route path={"/phone"} exact component={PhoneBook} />
         </Switch>
       </Layout>
     );
