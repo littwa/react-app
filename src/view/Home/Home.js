@@ -9,24 +9,23 @@ class Home extends React.Component {
   pictures: []
  };
 
- componentDidMount() {
-  Fetch.FetchImages().then(data => {
-   this.setState({ pictures: data.hits });
-   // this.props.onChangPic(data.hits);
-  });
- }
- render() {
-  console.log(2, this.props);
-  return (
-   <div className={style.content}>
-    {this.state.pictures && (
-     <PicContainer>
-      <PicItem onCh={this.props.onChangPic} location={this.props.location} pictures={this.state.pictures} />
-     </PicContainer>
-    )}
-   </div>
-  );
- }
+  componentDidMount() {
+    Fetch.FetchImages().then((data) => {
+      this.setState({ pictures: data.hits });
+      // this.props.onChangPic(data.hits);
+    });
+  }
+  render() {
+    return (
+      <div className={style.content}>
+        {this.state.pictures && (
+          <PicContainer>
+            <PicItem onCh={this.props.onChangPic} location={this.props.location} pictures={this.state.pictures} />
+          </PicContainer>
+        )}{" "}
+      </div>
+    );
+  }
 }
 
 export default Home;
