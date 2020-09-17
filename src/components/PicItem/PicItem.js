@@ -1,19 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import style from "./PicItem.module.css";
-import { render } from "@testing-library/react";
+import withTestContext from "../../hoc/withTestContext";
+
 // import App from "../App";
 // import { Qw } from "../App";
 
 class PicItem extends React.Component {
  cbClick = v => {
-  console.log(this.props.onCh);
   this.props.onCh(v);
  };
 
  render() {
   let { pictures, location } = this.props;
-
+  console.log(this.props);
   return pictures.map(p => (
    <li key={p.id} onClick={() => this.cbClick(p)}>
     <NavLink to={{ pathname: `/detail/${p.id}`, state: { from: location, pic: p } }}>
@@ -27,4 +27,4 @@ class PicItem extends React.Component {
  }
 }
 
-export default PicItem;
+export default withTestContext(PicItem);

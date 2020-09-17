@@ -3,3 +3,7 @@
   flex-direction: column;
   height: 100%;
 }
+.content {
+  flex: 1 0 auto;
+  background-color: #94c3d8;
+}

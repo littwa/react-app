@@ -4,28 +4,32 @@ import Fetch from "../../services/pixibayApi";
 import PicContainer from "../../components/PicContainer/PicContainer";
 import PicItem from "../../components/PicItem/PicItem";
 
+export let testContext = React.createContext();
+
 class Home extends React.Component {
  state = {
   pictures: []
  };
 
-  componentDidMount() {
-    Fetch.FetchImages().then((data) => {
-      this.setState({ pictures: data.hits });
-      // this.props.onChangPic(data.hits);
-    });
-  }
-  render() {
-    return (
-      <div className={style.content}>
-        {this.state.pictures && (
-          <PicContainer>
-            <PicItem onCh={this.props.onChangPic} location={this.props.location} pictures={this.state.pictures} />
-          </PicContainer>
-        )}{" "}
-      </div>
-    );
-  }
+ componentDidMount() {
+  Fetch.FetchImages().then(data => {
+   this.setState({ pictures: data.hits });
+   // this.props.onChangPic(data.hits);
+  });
+ }
+ render() {
+  return (
+   <testContext.Provider value={7777}>
+    <div className={style.content}>
+     {this.state.pictures && (
+      <PicContainer>
+       <PicItem onCh={this.props.onChangPic} location={this.props.location} pictures={this.state.pictures} />
+      </PicContainer>
+     )}{" "}
+    </div>
+   </testContext.Provider>
+  );
+ }
 }
 
 export default Home;
