@@ -1,44 +1,61 @@
-import React, { lazy, Suspense } from "react";
-import { createContext } from "react";
-import Layout from "./Layout";
-import Home from "../view/Home/Home";
-import PageSearch from "../view/PageSearch/PageSearch";
-import About from "../view/About/About";
-import Detail from "../view/Detail/Detail";
-import DetailB from "../view/DetailB/DetailB";
-import PhoneBook from "../view/PhoneBook/PhoneBook";
-import { Route, Switch } from "react-router-dom";
-import InnerView from "../view/InnerView/InnerView";
+import React, { useEffect, useRef, useState } from "react";
 
-// export const T = createContext();
+import { interval, Subject, fromEvent } from "rxjs";
+import { takeUntil, debounceTime, buffer, map, filter } from "rxjs/operators";
 
-class App extends React.Component {
- state = { pic: [] };
- // static changePic = (value) => this.setState({ pic: value });
- changePic = value => this.setState({ pic: value });
- render() {
+export default function Stopwatch() {
+  const [sec, setSec] = useState(0);
+  const [status, setStatus] = useState("stop");
+  const waitBtn = useRef();
+
+  useEffect(() => {
+    const emit$ = new Subject();
+
+    interval(1000)
+      .pipe(takeUntil(emit$))
+      .subscribe(() => status === "start" && setSec(x => x + 1000));
+
+    const mouse$ = fromEvent(waitBtn.current, "click");
+    const buff$ = mouse$.pipe(debounceTime(300));
+
+    const click$ = mouse$.pipe(
+      buffer(buff$),
+      map(list => {
+        return list.length;
+      }),
+      filter(x => x === 2),
+    );
+
+    click$.subscribe({
+      next: () => {
+        setStatus("wait");
+      },
+    });
+
+    return () => emit$.next();
+  }, [status]);
+
+  const start = () => {
+    setStatus("start");
+  };
+
+  const stop = () => {
+    setStatus("stop");
+    setSec(0);
+  };
+
+  const reset = () => {
+    setSec(0);
+    setStatus(v => (v === "wait" ? "start" : v));
+  };
+
   return (
-   <Layout>
-    <Suspense fallback={<div>Loading...</div>}>
-     <Switch>
-      <Route path={"/"} exact render={props => <Home {...props} onChangPic={this.changePic} />} />
-      <Route path={"/search"} exact component={PageSearch} />
-      <Route path={"/detail"} exact render={props => <Detail {...props} extraProps={this.state.pic} />} />
-      <Route path={"/detail/ss"} exact component={About} />
-      <Route
-       path={"/detail/:ImgId"}
-       exact
-       render={props => <DetailB {...props} extraProps={this.state.pic} />}
-      />
-      {/* <Route path={"/about"} exact component={About} /> */}
-      <Route path={"/about"} exact component={lazy(() => import("../view/About/About"))} />
-      <Route path={"/phone"} exact component={PhoneBook} />
-      <Route path={"/search/inner"} exact component={InnerView} />
-     </Switch>
-    </Suspense>
-   </Layout>
+    <div style={{ padding: "30px" }}>
+      <p>{new Date(sec).toISOString().slice(11, 19)}</p>
+      <button onClick={start}>Start</button>
+      <button onClick={stop}>Stop</button>
+      <button onClick={reset}>Reset</button>
+      <button ref={waitBtn}>Wait (x2-click)</button>
+    </div>
   );
- }
 }
-
-export default App;
